@@ -12,5 +12,6 @@ $(document).ready(function() {
     var color = $("#color").val();
 
     $("body").css("background", color);
+    alert("You're not only one");
   });
 });
