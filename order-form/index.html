@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Order Form</h1>
+      <form id="order-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" id="address" class="form-control">
+        </div>
+        <button type="submit" id="order-submit" class="btn btn-success">Order</button>
+      </form>
+
+      <div class="receipt">
+        <p>
+          Thank you for ordering your product with us today.  We are shipping it promptly, and it will arrive tomorrow.  Here is a confirmation of your shipping address: <br>
+
+          <span id="receipt-address"></span><br>
+
+          Thanks, <span id="receipt-name"></span>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.para {
+  display: none;
+}
+
+/*#upper {
+  display: none;
+}*/
+
+.upper span {
+  font-size: 6em;
+  color: red;
+}
