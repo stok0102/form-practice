@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cooking Conversions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Convert all the things</h1>
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-6 col-sm-offset-3 well">
+            <form id="g-l" class="row">
+              <div class="form-group col-sm-6">
+                <label for="gal-liter">Enter Gallons:</label>
+                <input type="text" id="gal-liter" class="form-control">
+                <button type="submit" id="">Convert!</button>
+              </div>
+              <div id="liter-conversion" class="col-sm-6">
+                <span id="liter"></span>
+              </div>
+            </form>
+            <form id="f-c" class="row">
+              <div class="form-group col-sm-6">
+                <label for="fahr-cel">Enter fahrenheight degrees:</label>
+                <input type="text" id="fahr-cel" class="form-control">
+                <button type="submit" id="">Convert!</button>
+              </div>
+              <div id="celsius-conversion" class="col-sm-6">
+                <span id="celsius"></span>
+              </div>
+            </form>
+            <form id="c-ml" class="row">
+              <div class="form-group col-sm-6">
+                <label for="cup-ml">Enter cups:</label>
+                <input type="text" id="cup-ml" class="form-control">
+                <button type="submit" id="">Convert!</button>
+              </div>
+              <div id="ml-conversion" class="col-sm-6">
+                <span id="milliliters"></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
